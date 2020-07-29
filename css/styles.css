@@ -157,6 +157,22 @@
     margin-top: 20px;
 }
 
+.container-hero .container-cards .cards .compra {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: var(--color-firts);
+    cursor: pointer;
+}
+
+.container-hero .container-cards .cards .compra a {
+    text-decoration: none;
+    color: #fff;
+}
+
+
+
 /*** section Products ***/
 
 .products {
