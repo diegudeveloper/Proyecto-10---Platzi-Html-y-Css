@@ -278,6 +278,100 @@
     object-fit: cover;
 }
 
+
+
+/*** section Productos y Servicios ***/
+
+.container-product .text-product {
+    width: 60%;
+    margin-right: auto;
+    margin-left: auto;
+    margin-top: 100px;
+    margin-bottom: 100px;
+}
+
+.container-product .text-product h1 {
+    text-align: center;
+    font-size: var(--family-size-hero);
+    font-weight: 300;
+}
+
+.prod-serv {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.prod-serv .cardPro {
+    width: 90%;
+    height: auto;
+    margin-right: auto;
+    margin-left: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-bottom: 60px;
+}
+
+.prod-serv .cardPro:nth-child(2) {
+    flex-direction: row-reverse;
+}
+
+.prod-serv .cardPro .img2 {
+    display: inline-block;
+    text-align: center;
+}
+
+.prod-serv .cardPro .picture {
+    width: 40%;
+    height: auto;
+    text-align: center;
+}
+
+.prod-serv .cardPro .picture img {
+    width: 50%;
+    max-width: 50%;
+    height: auto;
+}
+
+.prod-serv .cardPro .text-cardpr {
+    width: 60%;
+    height: auto;
+    text-align: justify;
+}
+
+.prod-serv .cardPro .text-cardpr h2 {
+    margin-bottom: 20px;
+}
+
+.prod-serv .cardPro .text-cardpr .compra {
+    margin-top: 10px;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: 1px solid #fff;
+    background-color: var(--color-firts);
+    cursor: pointer;
+}
+
+.prod-serv .cardPro .text-cardpr .compra a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.prod-serv .cardPro .text-cardpr p {
+    line-height: 30px;
+}
+
+
+
+
+
+
+
 /****footer***/
 
 footer .footer {
