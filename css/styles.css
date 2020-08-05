@@ -408,7 +408,7 @@
 
 .pago .container-pago .cuadro-pago .product {
     width: 50%;
-    height: 50%;
+    height: 350px;
 }
 
 
@@ -517,6 +517,30 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+}
+
+/***pago***/
+
+.pago .container-pago {
+    width: 90%;
+}
+
+.pago .container-pago .cuadro-pago {
+    height: auto;
+    margin-top: 200px;
+}
+
+.pago .container-pago .cuadro-pago .product {
+    width: 100%;
+}
+
+.pago .container-pago .cuadro-pago .container-informactions {
+    width: 100%;
+    
+}
+
+.pago .container-pago .cuadro-pago .container-informactions input {
+    display: block;
 }
 
 
