@@ -6,6 +6,11 @@
 
 /*Variables*/
 
+html {
+    min-height: 100%;
+    position: relative;
+}
+
 :root {
     --color-firts: #AFB9E9;
     --color-menu: #fff;
@@ -100,6 +105,7 @@
   display: flex;
   align-items: center;
 }
+
 .container-hero .text-main h1 {
     width: 100%;
     margin-right: auto;
@@ -125,9 +131,8 @@
     justify-content: space-around;
     align-items: center;
     flex-wrap: wrap;
-    /*flex-wrap: wrap;*/
-    
 }
+
 .container-hero .container-cards .cards {
     width: 30%;
     height: auto;  
@@ -368,126 +373,6 @@
     line-height: 30px;
 }
 
-/****Pago****/
-
-/*html {
-    min-height: 100%;
-    position: relative;
-}*/
-
-.pago {
-    width: 100%;
-    height: 80vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pago .container-pago {
-    width: 80%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pago .container-pago .cuadro-pago {
-    width: 700px;
-    height: 500px;
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    box-sizing: border-box;
-    border: 1px solid var(--color-firts);
-    border-radius: 5px;
-}
-
-.pago .container-pago .cuadro-pago .product {
-    width: 50%;
-    height: 350px;
-}
-
-
-.pago .container-pago .cuadro-pago .product img {
-    width: 80%;
-    max-width: 100%;
-    height: 100%;
-    display: block;
-    margin: 0 auto;
-}
-
-.pago .container-pago .cuadro-pago .product h3 {
-    text-align: center;
-    margin-bottom: 10px;
-    color: var(--color-firts);
-}
-.pago .container-pago .cuadro-pago .product p {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
-
-.pago .container-pago .cuadro-pago .container-informactions {
-    width: 50%;
-    height: 350px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.pago .container-pago .cuadro-pago .container-informactions .informaction {
-    width: 100%;
-    height: auto;
-    padding-top: 15px;
-}
-
-.pago .container-pago .cuadro-pago .container-informactions input {
-    width: 90%;
-    height: 30px;
-    margin-left: auto;
-    margin-right: auto;
-    margin-bottom: 20px;
-    border-radius: 5px;
-    border: 1px solid var(--color-firts);
-    padding-left: 5px;
-}
-
-.pago .container-pago .cuadro-pago .container-totalpago {
-    width: 100%;
-    height: 20%;
-    text-align: center;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-wrap: wrap;
-    margin-top: 10px;
-}
-
-.pago .container-pago .cuadro-pago .container-totalpago h3 {
-    width: 100%;
-    font-size: 40px;
-}
-
-.pago .container-pago .cuadro-pago .container-totalpago .compra {
-    height: 40px;
-    margin-top: 10px;
-    padding: 5px 10px;
-    border-radius: 5px;
-    border: 1px solid #fff;
-    background-color: var(--color-firts);
-    cursor: pointer;
-}
-
-.pago .container-pago .cuadro-pago .container-totalpago .compra a {
-    text-decoration: none;
-    color: #fff;
-}
-
 /****exito****/ 
 
 .exit {
@@ -519,40 +404,15 @@
     margin-right: auto;
 }
 
-/***pago***/
-
-.pago .container-pago {
-    width: 90%;
-}
-
-.pago .container-pago .cuadro-pago {
-    height: auto;
-    margin-top: 200px;
-}
-
-.pago .container-pago .cuadro-pago .product {
-    width: 100%;
-}
-
-.pago .container-pago .cuadro-pago .container-informactions {
-    width: 100%;
-    
-}
-
-.pago .container-pago .cuadro-pago .container-informactions input {
-    display: block;
-}
-
 
 /****footer***/
 
 footer {
-    position: fixed;
+    position: absolute;
     left: 0;
     bottom: 0;
-    width: 100%;*/
+    width: 100%;
     overflow: hidden;
-    
 }
 
 footer .footer {

@@ -12,8 +12,54 @@
 }
 
 
+/* iPads (portrait and landscape) ----------- */
+@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
 
-/***index***/
+    .container-hero .text-main {
+        width: 60%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        margin-top: 60px;
+    }
+
+    .container-hero .text-main h1 {
+        padding-left: 0;
+        text-align: center;
+    }
+    
+    .container-hero .container-cards {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        flex-wrap: wrap;
+        margin-bottom: 100px;
+    }
+
+    .container-hero .container-cards .cards {
+        width: 42%;
+        height: auto;  
+        text-align: center; 
+    }
+
+    .container-hero .container-cards .card1 img {
+        width: 70%;
+        max-width: 70%;
+        height: auto;  
+    }
+
+    .container-hero .container-cards .card2 img {
+        width: 70%;
+        max-width: 70%;
+        height: auto; 
+    }
+}
+
+
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
     .container-menu .menu ul li {
@@ -54,6 +100,7 @@
         padding: 0.5em 1em;
         color: #ffffff;
         background-color: var(--color-firts);
+        margin-bottom: 30px;
     }
 
     .container-hero .container-cards .cards p {
@@ -63,6 +110,64 @@
     .container-hero .container-cards .cards .compra a {
         font-size: 16px;
        
+    }
+
+    /*** pagos ***/ 
+
+    .pago {
+        width: 100%;
+        height: auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pago .container-pago {
+        width: 90%;
+        height: auto;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .pago .container-pago .cuadro-pago {
+        width: 100%;
+        height: auto;
+    }
+
+    .pago .container-pago .cuadro-pago .product {
+        width: 100%;
+        height: auto;
+    }
+
+    .pago .container-pago .cuadro-pago .container-informactions {
+        width: 90%;
+        height: auto;
+        margin: 0 auto;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .pago .container-pago .cuadro-pago .container-informactions input {
+        display: block;
+        width: 90%;
+        height: 30px;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 20px;
+        border-radius: 5px;
+        border: 1px solid var(--color-firts);
+        
+    }
+
+    .pago .container-pago .cuadro-pago .container-totalpago {
+        width: 100%;
+        height: auto;
+        text-align: center;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
     }
 
     .products {
@@ -93,6 +198,7 @@
         text-align: center;
         margin-top: 100px;
     }
+
 
     footer .footer h2 {
         padding: 0 20px;
@@ -165,6 +271,3 @@
 
 
 }
-
-
-
