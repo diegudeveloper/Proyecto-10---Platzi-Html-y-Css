@@ -62,6 +62,7 @@
 
 
 @media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
     .container-menu .menu ul li {
         margin-left: 10px;
     }
@@ -118,7 +119,9 @@
     
     html {
         min-height: 0;
-        position: none;
+        position: static;
+        /*font-family: 'Rubik', sans-serif;*/
+        font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     }
 
     .pago {
@@ -139,9 +142,10 @@
     .pago .container-pago .cuadro-pago {
         width: 100%;
         height: auto;
-        margin-bottom: 20px;
-        --webkit-box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.123);
-        box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.123);
+        margin-bottom: 40px;
+        margin-top: 40px;
+        --webkit-box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.123);
+        box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.123);
         border-radius: 20px;
     }
 
@@ -181,6 +185,10 @@
         flex-wrap: wrap;
     }
 
+    .pago .container-pago .cuadro-pago .container-totalpago h3 {
+        padding: 0 7px;
+    }
+
     .pago .container-pago .cuadro-pago .container-totalpago .compra {
         margin-bottom: 30px;
     }
@@ -188,7 +196,7 @@
     .products {
         padding-top: 500px;
         margin-bottom: 30px;
-        margin-top: 30px;
+        margin-top: 60px;
     }
 
     .products .container-all-products .card {
@@ -196,13 +204,15 @@
         height: 400px;
         border: 1px solid var(--color-firts);
         margin-bottom: 10px;
-        --webkit-box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.123);
-        box-shadow: 0px 10px 10px 10px rgba(0, 0, 0, 0.123);
+        --webkit-box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.123);
+        box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.123);
         border-radius: 20px;
+        margin-top: 30px;
     }
 
+
     .products .container-all-products .card picture p {
-        margin-top: -100px;
+        margin-top: -105px;
     }
 
     .products .container-all-products .card picture img {
@@ -260,9 +270,11 @@
     }
 
     .prod-serv .cardPro .picture img {
+        display: block;
         width: 100%;
         max-width: 100%;
         height: 100%;
+        text-align: end;
     }
 
     .prod-serv .cardPro .text-cardpr {
@@ -270,9 +282,11 @@
         margin: 0 auto;
     }
 
+
     .prod-serv .cardPro .text-cardpr h2 {
         text-align: center;
     }
+
 
     .prod-serv .cardPro .text-cardpr p {
         margin-bottom: 20px;
@@ -288,6 +302,7 @@
         padding: 0.5em 1em;
         color: #ffffff;
         background-color: var(--color-firts);
+
     }
 
     .prod-serv .cardPro .text-cardpr .compra a {
